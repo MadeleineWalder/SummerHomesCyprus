@@ -4,8 +4,9 @@
 
 ### Info
 
-A quick website I built in my spare time as a rough example of a modern website for a real estate & construction company based in Cyprus.
-This is only a very basic site and an example of what I can do in just a couple of hours.
+A quick, unfinished site. Built as a rough example of a modern website for a Real Estate company based in Cyprus.
+This is only a very basic site and an example of what I can do in just an hour or two.
+
 
 ### Analysis
 
