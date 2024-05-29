@@ -1,0 +1,100 @@
+/* Style for the navbar */
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2) !important; /* Semi-transparent background */
+    z-index: 1000; /* Make sure it's on top of other elements */
+}
+
+.navbar-brand {
+    color: #ffffff;
+    opacity: 80%;
+}
+
+.nav-item {
+    margin-left: 3em;
+}
+
+/* Main image */
+.hero {
+    background-image: url(cyprus3.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    color: #ffffff;
+    
+}
+
+.title {
+    font-family: "Playfair Display", cursive;
+    margin-top: 30vh;
+}
+
+body {
+    background-color: #41747f;
+    color: #f1f1f1;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.fancy {
+    font-family: 'Dancing Script', cursive;
+    padding-bottom: 10%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.top-padding {
+    padding-top: 5%;
+}
+
+.bottom-padding {
+    padding-bottom: 2%;
+}
+
+.div1 {
+    min-height: 44vh;
+    padding-top: 2%;
+    font-size: 1.2rem;
+}
+
+
+.align {
+    text-align: left;
+}
+
+footer {
+    background-color: #41747f;
+    font-size: 1.1em;
+}
+
+footer a {
+    color: #f1f1f1 !important;
+    padding: 5%;
+}
+
+footer a:hover {
+    color: #1324da !important;
+}
+
+
+@media (max-width: 1024px) {
+    .masthead {
+        min-height: 33vh;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}
