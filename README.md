@@ -1,5 +1,7 @@
 # summerhomes.com
 
+## Link to live site: https://madeleinewalder.github.io/summerhomes.com/
+
 ### Info
 
 A quick website I built in my spare time as a rough example of a modern website for a real estate & construction company based in Cyprus.
