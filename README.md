@@ -1,6 +1,6 @@
 # summerhomes.com
 
-## Link to live site: https://madeleinewalder.github.io/summerhomes.com/](https://madeleinewalder.github.io/SummerHomesCyprus/
+## Link to live site: https://madeleinewalder.github.io/SummerHomesCyprus/
 
 ### Info
 
