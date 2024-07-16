@@ -103,6 +103,10 @@ ul {
     align-items: center;
 }
 
+h2 {
+    text-decoration: underline 2px;
+}
+
 .align {
     text-align: left;
 }
@@ -115,11 +119,14 @@ ul {
     object-fit: cover;
 }
 
+.card-body a:hover {
+    color: rgb(255, 170, 0) !important;
+}
+
 /* --- */
 
-.view-all-button {
+.button-small {
     font-size: 15px;
-    text-decoration: underline;
 }
 
 .bg-image-1 {
@@ -128,6 +135,13 @@ ul {
     min-height: 100vh;
     position: relative;
     color: white;
+}
+
+
+.about-text {
+    background-color: hsla(0, 0%, 0%, 0.734);
+    padding: 10px 5px;
+    border-radius: 5px;
 }
 
 /* Contact Form */
