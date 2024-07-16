@@ -91,8 +91,11 @@ ul {
     padding-bottom: 2%;
 }
 
+.section {
+    min-height: 100vh;
+}
+
 .div1 {
-    min-height: 44vh;
     padding-top: 2%;
     font-size: 1.2rem;
     display: flex;
@@ -119,6 +122,13 @@ ul {
     text-decoration: underline;
 }
 
+.bg-image-1 {
+    background-image: url(images/a.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+}
 
 /* Contact Form */
 
