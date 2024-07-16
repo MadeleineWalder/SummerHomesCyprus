@@ -9,17 +9,20 @@
 }
 
 .navbar-brand {
-    color: #ffffff;
-    opacity: 80%;
     font-weight: 500;
 }
 
 .nav-item {
     margin-left: 3em;
+    font-weight: 500;
+}
+
+.navbar a {
+    color: hsla(0, 0%, 100%, 0.84) !important;
 }
 
 .navbar a:hover {
-    color: rgb(255, 170, 0);
+    color: rgb(255, 170, 0) !important;
 }
 
 /* Landing Page */
