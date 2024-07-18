@@ -6,16 +6,16 @@
     width: 100%;
     background: rgba(0, 0, 0, 0.2) !important; /* Semi-transparent background */
     z-index: 1000; /* Make sure it's on top of other elements */
-    font-family: "Raleway", sans-serif;
+    font-family: "Lexend", sans-serif;
 }
 
 .navbar-brand {
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .nav-item {
-    margin-left: 3em;
-    font-weight: 500;
+    margin-left: 4em;
+    font-weight: 300;
 }
 
 .navbar a {
@@ -44,27 +44,10 @@
     text-shadow: 2px 2px 2px rgb(36, 36, 36)
 }
 
-.button {
-    border: none;
-    color: white;
-    background-color: rgb(36, 36, 36);
-    padding: 10px 26px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.button:hover {
-    background-color: rgb(255, 170, 0);
-}
-
-/* --- */
-
 body {
-    background-color: #41747f;
+    /*background-color: #41747f;*/
+    /*background-color: rgb(36, 36, 36);*/
+    background-color: rgb(29, 48, 59);
     color: #f1f1f1;
     font-family: "Lexend", sans-serif;
     font-weight: 300;
@@ -83,6 +66,53 @@ ul {
     list-style-type: none;
 }
 
+/* --- */
+
+/* Buttons */
+
+.button-light {
+    border: none;
+    color: black;
+    background-color: whitesmoke;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Lexend", sans-serif;
+}
+
+.button-light:hover {
+    background-color: rgb(255, 170, 0);
+}
+
+.button-dark {
+    border: none;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Lexend", sans-serif;
+    background-color: rgb(36, 36, 36);
+    color: whitesmoke;
+}
+
+.button-dark:hover {
+    background-color: rgb(255, 170, 0);
+    color: black;
+}
+
+.button-small {
+    font-size: 15px;
+}
+
+/* --- */
+
 .top-padding {
     padding-top: 5%;
 }
@@ -95,16 +125,18 @@ ul {
     min-height: 100vh;
 }
 
+h2 {
+    font-weight: 400;
+    font-size: 2.75rem;
+    letter-spacing: 1px;
+}
+
 .div1 {
     padding-top: 2%;
     font-size: 1.2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-h2 {
-    text-decoration: underline 2px;
 }
 
 .align {
@@ -119,15 +151,21 @@ h2 {
     object-fit: cover;
 }
 
+.card-title {
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.card-text {
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
 .card-body a:hover {
-    color: rgb(255, 170, 0) !important;
+    color: rgb(230, 157, 11) !important;
 }
 
 /* --- */
-
-.button-small {
-    font-size: 15px;
-}
 
 .bg-image-1 {
     background-image: url(images/a.jpg);
@@ -176,25 +214,10 @@ input, textarea {
     font-size: 16px;
 }
 
-.submit-button {
-    
-    padding: 10px 16px;
-    border: none;
-    color: white;
-    background-color: rgb(36, 36, 36);
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.submit-button:hover {
-    background-color: rgb(255, 170, 0);
-}
-
 /* --- */
 
 footer {
-    background-color: #41747f;
+    background-color: rgb(29, 48, 59);
     font-size: 1.1em;
 }
 
