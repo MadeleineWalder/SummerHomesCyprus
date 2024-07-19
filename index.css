@@ -180,21 +180,6 @@ h2 {
 
 /* --- */
 
-.bg-image-1 {
-    background-image: url(images/a.jpg);
-    background-size: cover;
-    min-height: 100vh;
-    position: relative;
-    color: whitesmoke;
-}
-
-
-.about-text {
-    background-color: hsla(0, 0%, 0%, 0.734);
-    padding: 10px 5px;
-    border-radius: 5px;
-}
-
 /* Contact Form */
 
 .contact-form-container {
